@@ -21,7 +21,7 @@ with st.form("hr_form"):
     st.markdown("### ⚾ Pitcher HR Risk")
     hr9 = st.slider("HRs Allowed per 9 IP", 0.0, 3.0, 1.2)
 
-    # Fixed values for removed sliders
+    # Fixed inputs for now
     park_factor = 0
     wind_boost = 0
     temp_boost = 0
